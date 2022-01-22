@@ -1,0 +1,15 @@
+-  request:
+     url: ^/api/host$
+   response:
+    - status: 200
+      headers:
+         content-type: application/json
+         server: stubbedServer/4.2
+      body: >
+         {"Name":"hari.papisetty", "IpAddress":["12.13.14.15"]}
+    - status: 200
+      headers:
+         content-type: application/json
+         server: stubbedServer/4.2
+      body: >
+         {"Name":"naveen.papisetty", "IpAddress":["18.19.20.21"]}

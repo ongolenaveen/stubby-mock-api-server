@@ -1,0 +1,21 @@
+{
+  "name": "stubby",
+  "version": "1.0.0",
+  "description": "Write Mock Api using stubby",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stubby",
+    "Mocks"
+  ],
+  "author": "naveen papisetty",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "js-yaml": "^4.1.0",
+    "stubby": "^5.1.0"
+  }
+}
