@@ -11,6 +11,9 @@ var stubby = new Stubby();
 stubby.start({
   stubs: process.env.STUBS_PORT,
   admin: process.env.ADMIN_PORT,
+  tls: process.env.TLS_STUBS_PORT, 
+  key: fs.readFileSync("./certificates/privatekey.pem"),
+  cert: fs.readFileSync("./certificates/certificate.pem"),
   location: os.hostname,
   data: endpoints
 });
